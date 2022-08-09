@@ -1,0 +1,45 @@
+/* header {
+  background-color: #fdd670;
+} */
+
+.searchbar-icon {
+  margin-right: 55px;
+  z-index: -1;
+}
+/* .cart {
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  right: 0;
+
+  background-color: red;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+.floating {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  position: sticky;
+  position: fixed;
+}
+.floatingcart {
+  position: absolute;
+  right: 0;
+
+  overflow-y: auto;
+  /* display: flex-center; */
+  float: right;
+  top: calc(110px + 30%);
+
+  position: sticky;
+}
