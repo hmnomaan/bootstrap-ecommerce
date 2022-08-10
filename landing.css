@@ -35,11 +35,14 @@ body {
 .floatingcart {
   position: absolute;
   right: 0;
+  /* bottom: 0; */
 
   overflow-y: auto;
   /* display: flex-center; */
   float: right;
-  top: calc(110px + 30%);
+  /* top: csalc(110px + 30%); */
+  margin-bottom: 300px;
 
   position: sticky;
+  position: fixed;
 }
